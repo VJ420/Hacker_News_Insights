@@ -14,3 +14,7 @@ The project employs several techniques and mechanisms to analyze sentiment and t
 5. **Visualization**: The project utilizes Dash, a Python framework for building web applications, to create an interactive dashboard. Visualizations such as histograms, bar plots, and sentiment score rankings are included in the dashboard to help users explore sentiment trends and topic distributions among Hacker News posts.
 
 Overall, these techniques and mechanisms enable users to gain insights into the sentiment tendencies and trending topics within the Hacker News community, facilitating a better understanding of the discussions taking place on the platform.
+
+## Revision Reader App
+
+The `revision_app.py` script provides a simple interface for reviewing text with text-to-speech support. Run the script and open a text file or paste your text into the window, then click **Read Text** to have the content read aloud using the `pyttsx3` library.
