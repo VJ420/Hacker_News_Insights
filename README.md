@@ -17,4 +17,15 @@ Overall, these techniques and mechanisms enable users to gain insights into the 
 
 ## Revision Reader App
 
-The `revision_app.py` script provides a simple interface for reviewing text with text-to-speech support. Run the script and open a text file or paste your text into the window, then click **Read Text** to have the content read aloud using the `pyttsx3` library.
+The `revision_app.py` script offers a polished interface for reviewing text with
+text-to-speech support. Install the requirements and run the script, then open a
+text file or paste your text into the window. Click **Read Text** to hear the
+contents read aloud.
+
+```
+pip install pyttsx3
+python revision_app.py
+```
+
+The app uses the themed `ttk` widgets to provide a cleaner appearance, so you
+can focus on the text while it is read aloud.
